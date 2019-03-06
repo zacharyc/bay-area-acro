@@ -1,10 +1,10 @@
 
-@media (min-width: 85.4rem){
+@media (min-width: 70.4rem){
     .content{
-        width:85rem;
+        width:64rem;
     }
 }
-@media (max-width: 85.4rem){
+@media (max-width: 70.4rem){
     .content{
         width:64rem;
     }
@@ -30,17 +30,30 @@ h1, h2, h3, h4, h5, h6 {
 	display: block;
 }
 .studio {
-
+clear:both;
+	display: block;
 }
 .time {
-
+clear:both;
+	display: block;
 }
 .city {
-
+clear:both;
+	display: block;
 }
 .cost {
-
+clear:both;
+	display: block;
 }
+
+/* Grid Layout */
+.acroclass {
+	display: grid;
+  	grid-template-columns: repeat(4, 1fr);
+  	grid-gap: 10px;
+  	grid-auto-rows: minmax(50px, auto);
+}
+
 .content {
 	margin:0 auto;
 }

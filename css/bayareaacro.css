@@ -1,15 +1,27 @@
 
-@media (min-width: 70.4rem){
+@media (min-width: 50rem){
     .content{
         width:64rem;
     }
+    .acroclass {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: 10px;
+		grid-auto-rows: minmax(50px, auto);
+	}
 }
-@media (max-width: 70.4rem){
+/*@media (max-width: 70.4rem){
     .content{
         width:64rem;
     }
-}
-@media (max-width: 65rem){
+    .acroclass {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-gap: 10px;
+		grid-auto-rows: minmax(50px, auto);
+	}
+}*/
+@media (max-width: 50rem){
     .content{
         width:100%;
         padding:0 1rem;
@@ -46,12 +58,8 @@ clear:both;
 	display: block;
 }
 
-/* Grid Layout */
 .acroclass {
-	display: grid;
-  	grid-template-columns: repeat(4, 1fr);
-  	grid-gap: 10px;
-  	grid-auto-rows: minmax(50px, auto);
+	padding-bottom:20px;
 }
 
 .content {

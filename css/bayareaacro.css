@@ -28,12 +28,28 @@
     }
 }
 
+html {
+	margin:0;
+	padding:0;
+	height: 100%;
+}
 body {
 	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+	margin:0;
+	padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Slabo 27px', serif;
+}
+
+footer {
+	text-align: center;
+	background: #E8E8E8;
+	padding:10px 0px 10px 0px;
+	border-top:1px dotted gray;
+	margin: 0px;
 }
 
 .title {
